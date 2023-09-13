@@ -6,7 +6,7 @@ Please visit [https://git-scm.com](https://git-scm.com/) for more info.
 
 ## Setup
 
-Set path:
+The majority of the installation will use '/home/admin' user space. Set git path:
 
 ```
 export PATH=/home/admin/libexec/git-core:$PATH
