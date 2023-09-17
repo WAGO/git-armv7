@@ -2,11 +2,14 @@
 
 A Git SCM build from source.
 
-Please visit [https://git-scm.com](https://git-scm.com/) for more info.
-
 ## Setup
 
-The majority of the installation will use '/home/admin' user space. Set git path:
+The installation will use either:
+
+* memory card if present, formatted in ext4 and labeled 'docker'&#x20;
+* home-directory if no memory found
+
+Set git path:
 
 ```
 export PATH=/home/admin/libexec/git-core:$PATH
@@ -15,7 +18,7 @@ export PATH=/home/admin/libexec/git-core:$PATH
 Test:
 
 ```
-admin@EC752-492524:~ git --version
+:~ git --version
 git version 2.42.0
 ```
 
