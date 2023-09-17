@@ -2,14 +2,22 @@
 
 The installation will use either:
 
-* memory card if present, formatted in ext4 and labeled 'docker'&#x20;
+* memory card if present, formatted in ext4 and labeled 'docker'
 * home-directory if no memory found
 
 Set git path:
 
 ```
-export PATH=/home/admin/libexec/git-core:$PATH
+export PATH=<PATH>/libexec/git-core:$PATH
 ```
+
+{% hint style="info" %}
+PATH:
+
+SD card = /home/sd
+
+Home = /home
+{% endhint %}
 
 Test:
 
