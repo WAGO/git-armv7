@@ -1,9 +1,5 @@
 # git-armv7
 
-A Git SCM build from source.
-
-## Setup
-
 The installation will use either:
 
 * memory card if present, formatted in ext4 and labeled 'docker'&#x20;
