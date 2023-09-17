@@ -8,16 +8,11 @@ The installation will use either:
 Set git path:
 
 ```
-export PATH=<PATH>/libexec/git-core:$PATH
+// For memory card:
+export PATH=/media/docker/git/libexec/git-core:$PATH
+// For home:
+export PATH=/home/git/libexec/git-core:$PATH
 ```
-
-{% hint style="info" %}
-PATH:
-
-SD card = /home/sd
-
-Home = /home
-{% endhint %}
 
 Test:
 
