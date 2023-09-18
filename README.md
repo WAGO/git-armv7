@@ -14,11 +14,17 @@ export PATH=/media/docker/git/libexec/git-core:$PATH
 export PATH=/home/git/libexec/git-core:$PATH
 ```
 
-Test:
+Check:
 
 ```
 :~ git --version
 git version 2.42.0
 ```
 
-Then configure .gitconfig (or use environmet varables) as normal.
+Configure:
+
+```
+git config --global user.name "<NAME>"
+git config --global user.email "<EMAIL>"
+git config --global user.password "<PASSWORD/TOKEN>"
+```
