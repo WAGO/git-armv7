@@ -1,38 +1,32 @@
 # git-armv7
 
-
-
-Clone:
-
-```
-```
-
-
-
 The installation will use either:
 
 * memory card if present, formatted in ext4 and labeled 'docker'
 * home/ directory if no memory card found
 
-Set git path:
+Update path in user-profile:
 
 ```
 // For memory card:
-export PATH=/media/docker/git/libexec/git-core:$PATH
+PATH="/media/docker/git/libexec/git-core:$PATH"
 // For home:
-export PATH=/home/git/libexec/git-core:$PATH
+PATH="/home/git/libexec/git-core:$PATH"
 ```
 
-Check:
-
-```
-:~ git --version
-```
-
-Configure:
+Configuring example:
 
 ```
 git config --global user.name "<NAME>"
 git config --global user.email "<EMAIL>"
-git config --global user.password "<PASSWORD/TOKEN>"
+git config --global user.password "<TOKEN>"
+git config --global credential.helper cache
+it config --global init.defaultBranch <BRANCH>
+git config --global init.templateDir "<PATH>/share/git-core/templates"
+```
+
+Clone:
+
+```
+git clone <REPO>
 ```
