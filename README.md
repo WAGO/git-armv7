@@ -21,7 +21,7 @@ git config --global user.name "<NAME>"
 git config --global user.email "<EMAIL>"
 git config --global user.password "<TOKEN>"
 git config --global credential.helper cache
-it config --global init.defaultBranch <BRANCH>
+git config --global init.defaultBranch <BRANCH>
 git config --global init.templateDir "<PATH>/share/git-core/templates"
 ```
 
